@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: smit7/client
+          image: smit7/ticketing-client
 ---
 apiVersion: v1
 kind: Service

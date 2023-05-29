@@ -6,7 +6,6 @@ interface UserPayload {
   email: string;
 }
 
-/* -- To extend properties of Request Object -- */
 declare global {
   namespace Express {
     interface Request {
